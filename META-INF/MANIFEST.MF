@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KBS Plugin : Auler AccountinfoCockpit
+Bundle-SymbolicName: com.kylinsystems.kbs.plugins.auler.acctinfocpt;singleton:=true
+Bundle-Version: 7.1.0.qualifier
+Bundle-Vendor: KBS
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Require-Bundle: org.adempiere.base;bundle-version="0.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0",
+ org.adempiere.ui.zk;bundle-version="0.0.0",
+ org.idempiere.zk.extra;bundle-version="0.0.0",
+ zcommon;bundle-version="0.0.0",
+ zel;bundle-version="0.0.0",
+ zk;bundle-version="0.0.0",
+ zul;bundle-version="0.0.0",
+ zhtml;bundle-version="0.0.0",
+ com.kylinsystems.kbs.odt;bundle-version="0.0.0"
+Bundle-ClassPath: .
+Service-Component: OSGI-INF/*.xml
+Import-Package: org.compiere.model
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: com.kylinsystems.kbs.plugins.auler.acctinfocpt
