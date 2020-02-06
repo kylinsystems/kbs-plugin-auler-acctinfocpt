@@ -1,4 +1,4 @@
-# KBS Plugin : Auler PaySelect
+# KBS Plugin : Auler AccountInfoCockpit
 
 The fork from https://bitbucket.org/aupatric/de.aulerlichtkabel.acctinfocpt, and converted to be installed via **KBS ObjectData Tool** 
 
